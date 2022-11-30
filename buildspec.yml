@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - chmod +x scripts/buildspec_yml.sh
+      - scripts/buildspec_yml.sh
+  build:
+    commands:
+      - forever start server.js
+artifacts:
+  files:
+    - '**/*'
