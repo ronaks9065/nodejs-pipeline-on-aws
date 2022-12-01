@@ -7,7 +7,7 @@ phases:
       - scripts/buildspec_yml.sh
   build:
     commands:
-      - forever start server.js
+      - npm start
 artifacts:
   files:
     - '**/*'
