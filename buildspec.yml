@@ -7,7 +7,7 @@ phases:
       - scripts/buildspec_yml.sh
   build:
     commands:
-      - npm start
+      - echo R
 artifacts:
   files:
     - '**/*'
