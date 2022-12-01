@@ -8,6 +8,4 @@ phases:
   build:
     commands:
       - echo npm build
-artifacts:
-  files:
-    - '**/*'
+
