@@ -3,11 +3,12 @@ version: 0.2
 phases:
   install:
     commands:
-      - chmod +x scripts/buildspec_yml.sh
-      - scripts/buildspec_yml.sh
+      - npm install -g npm@latest
+      - node -v
+      - npm -v
   build:
     commands:
-      - echo npm build
+      - npm install
 artifacts:
   files:
     - '**/*'
