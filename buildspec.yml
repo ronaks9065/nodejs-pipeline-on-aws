@@ -7,7 +7,7 @@ phases:
       - scripts/buildspec_yml.sh
   build:
     commands:
-      - sudo npm build
+      - npm install
 artifacts:
   files:
     - '**/*'
