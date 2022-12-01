@@ -8,7 +8,7 @@ phases:
       - npm -v
   build:
     commands:
-      - npm install
+      - echo Build Done
 artifacts:
   files:
     - '**/*'
