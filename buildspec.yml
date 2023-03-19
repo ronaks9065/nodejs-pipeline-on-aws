@@ -1,11 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - npm install -g npm@latest
-      - node -v
-      - npm -v
   build:
     commands:
       - echo Build Done
